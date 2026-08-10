@@ -1,0 +1,13 @@
+Hour,Period,Assumed_Lambda_per_hr,Simulated_Arrivals,Assumed_Mu_per_counter_per_hr
+08:00-09:00,Off-peak,15,18,20
+09:00-10:00,Off-peak,15,10,20
+10:00-11:00,Peak,45,47,20
+11:00-12:00,Peak,45,52,20
+12:00-13:00,Moderate,30,24,20
+13:00-14:00,Moderate,30,27,20
+14:00-15:00,Off-peak,15,14,20
+15:00-16:00,Off-peak,15,16,20
+16:00-17:00,Moderate,30,26,20
+17:00-18:00,Moderate,30,29,20
+18:00-19:00,Off-peak,15,11,20
+19:00-20:00,Off-peak,15,16,20
