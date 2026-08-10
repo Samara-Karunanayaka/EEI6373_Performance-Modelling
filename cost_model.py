@@ -1,19 +1,4 @@
-"""
-cost_model.py
--------------
-Economic layer on top of the M/M/c queuing results (queue_model.py).
 
-Translates waiting-time statistics into a staffing decision by minimizing:
-
-    Total Cost(c) = c * Cs + lambda * Wq(c) * Cw
-
-where:
-    Cs = hourly staffing cost per open counter (LKR)
-    Cw = imputed cost of one patient-hour of waiting (LKR)
-
-Reference: Hillier, F.S. and Lieberman, G.J. (2015)
-Introduction to Operations Research. 10th edn. New York: McGraw-Hill.
-"""
 
 import pandas as pd
 from queue_model import erlang_c
